@@ -1,0 +1,55 @@
+body {
+      font-family: 'Roboto', sans-serif;
+      /* Change font family */
+      background-color: #f8f9fa;
+  }
+
+  .input-group {
+      margin-bottom: 20px;
+  }
+
+  input {
+      width: 60px;
+      height: 40px;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 1.2rem;
+      margin: 0 5px;
+  }
+
+  .btn-check {
+      font-size: 1.2rem;
+  }
+
+  .modal-dialog {
+      max-width: 400px;
+  }
+
+  .card {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+  }
+
+  .card:hover {
+      transform: translateY(-5px);
+  }
+
+  .card-header {
+      background-color: #007bff;
+      color: white;
+  }
+
+  .card-body {
+      background-color: #f1f1f1;
+  }
+
+  .hint-text {
+      font-size: 1.1rem;
+  }
+
+  @media (max-width: 576px) {
+      .input-group {
+          flex-direction: column;
+          align-items: center;
+      }
+  }
